@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mokhorev/esp2026-b2b-oracle",
+  "description": "Read-only deterministic B2B TCO & RKO/VED tariff verifier with ESP-2026 epistemic security codes.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/mokhorev/esp2026-mcp-oracle",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.xn--b1abhrubaxmak6k.xn--p1ai/siberia-rko-ved/api/mcp"
+    }
+  ]
+}
